@@ -1,0 +1,16 @@
+{
+  "name": "lambda-layer-puppeteer",
+  "version": "1.0.0",
+  "description": "$ mkdir nodejs && cd $_ $ npm i chrome-aws-lambda puppeteer-core $ cd .. $ zip -r modules.zip nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-aws-lambda": "^3.1.1",
+    "node-fetch": "^2.6.0",
+    "puppeteer-core": "^5.2.1"
+  }
+}
